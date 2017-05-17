@@ -1,0 +1,20 @@
+.characters-list {
+  margin-top: 10px;
+}
+
+.single-character {
+  padding: 15px;
+  list-style: none;
+  border: 1px solid lightgrey;
+
+  &:hover {
+    background: lightgrey;
+    cursor: pointer;
+  }
+  
+}
+
+.left-panel {
+  width: 45%;
+  padding: 10px;
+}

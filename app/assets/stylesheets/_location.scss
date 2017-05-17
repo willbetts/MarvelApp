@@ -1,0 +1,50 @@
+.map-container {
+  position: relative;
+  float: right;
+  bottom: 90vh;
+  width: 50%;
+}
+
+.map {
+  position: relative;
+  height: 90vh;
+}
+
+.location-form{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background: lightgrey;
+}
+
+.location-form-header {
+  padding: 10px;
+}
+
+.location-input{
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+}
+
+.location-button {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  background: limegreen;
+  cursor: pointer;
+  border: 1px solid;
+  width: 60%;
+
+  &:hover {
+    opacity: 0.7;
+  }
+  
+}
+
+.picture-name {
+  font-weight: bold;
+}
+.picture-city {
+  font-size: 11px;
+}
